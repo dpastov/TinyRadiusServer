@@ -8,8 +8,9 @@ mvn package
 
 # Config
 
-The server loads settings from file config.properties
+The server loads settings from file **config.properties**
 
+```
 radius.secret=yourSharedCode
 
 user.name=John123
@@ -19,6 +20,7 @@ user.password=youPassword123
 twilio.sid = TwilioSID
 twilio.token = TwilioToken
 twilio.from = TwilioFromPhone
+```
 
 # Run
 ```
